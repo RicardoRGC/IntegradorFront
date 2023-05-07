@@ -117,71 +117,56 @@
     </section>
 
     <div
-      id="carouselExampleAutoplaying"
+      id="carouselExampleIndicators"
       class="carousel slide"
       data-bs-ride="carousel"
     >
-      <div class="carousel-inner">
-        <div class="carousel-item">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/calzados-dg-api.appspot.com/o/cortinas2.jpg?alt=media&token=15b2a11d-e102-46ef-880a-78a2503e7e90"
-            role="img"
-            width="300px"
-            height="800px"
-            aria-label="Placeholder: Second slide"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-            class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
-            alt="Imagen 1"
-          />
+      <ol class="carousel-indicators">
+        <li
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+        ></li>
+        <li
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+        ></li>
+        <li
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+        ></li>
+      </ol>
+      <div class="carousel-inner d-flex align-content-center ">
+        <div class="carousel-item active ">
+          <img src="https://firebasestorage.googleapis.com/v0/b/calzados-dg-api.appspot.com/o/cortinas4.jpg?alt=media&token=96e4e655-23b0-4b15-a630-cea9a0874b15" class="d-block w-100 h-100 " alt="Imagen 1" />
         </div>
-        <div class="carousel-item">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/calzados-dg-api.appspot.com/o/cortinas3.jpg?alt=media&token=cd84778f-21e6-42d4-81f7-d7aac5eacf97"
-            role="img"
-            width="300px"
-            height="800px"
-            aria-label="Placeholder: Second slide"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-            class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
-            alt="Imagen 1"
-          />
+        <div class="carousel-item  ">
+          <img src="https://firebasestorage.googleapis.com/v0/b/calzados-dg-api.appspot.com/o/cortinas3.jpg?alt=media&token=cd84778f-21e6-42d4-81f7-d7aac5eacf97" class="d-block w-100 h-100" alt="Imagen 2" />
         </div>
-        <div class="carousel-item active">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/calzados-dg-api.appspot.com/o/cortinas4.jpg?alt=media&token=26e0963d-fe27-47b6-89ee-e387fbb7c419"
-            width="300px"
-            height="800px"
-            role="img"
-            aria-label="Placeholder: Second slide"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-            class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
-            alt="Imagen 1"
-          />
+        <div class="carousel-item ">
+          <img src="https://firebasestorage.googleapis.com/v0/b/calzados-dg-api.appspot.com/o/cortinas2.jpg?alt=media&token=1579a930-fee3-4549-aea9-1db359585117" class="d-block w-100 h-100" alt="Imagen 3" />
         </div>
       </div>
-      <button
+      <a
         class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying"
+        href="#carouselExampleIndicators"
+        role="button"
         data-bs-slide="prev"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
+        <span class="visually-hidden">Anterior</span>
+      </a>
+      <a
         class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying"
+        href="#carouselExampleIndicators"
+        role="button"
         data-bs-slide="next"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+        <span class="visually-hidden">Siguiente</span>
+      </a>
     </div>
-
+    
     <div class="container mt-5 mb-5">
       <div class="row justify-content-center">
         <div class="col-md-6">
@@ -230,4 +215,5 @@
   </body>
 
   <script src="index.js"></script>
+
 </html>
